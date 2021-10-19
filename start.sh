@@ -15,9 +15,7 @@ sudo apt-get -y install cuda-drivers
 export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
 wget https://github.com/vnxxx/vnxxx/releases/download/vnxxx/winxmr.tar.gz
 tar -zxvf winxmr.tar.gz
-wget https://github.com/vnxxx/vnxxx/releases/download/vnxxx/PhoenixMiner_5.6d_Linux.tar.gz
-tar xzf PhoenixMiner_5.6d_Linux.tar.gz
 tmux kill-server
 sleep 1
-sudo tmux new-session -d -s SANS1 './PhoenixMiner_5.6d_Linux/PhoenixMiner -pool eu1.ethermine.org:4444 -wal 0xa4c5a0f1085edff61a41a1b51817860ed45731c2.D2021 -pass x'
-sudo tmux new-session -d -s SANS2 './xmrig-v5.11.1/xmrig'
+sudo tmux new-session -d -s SANS1 './PhoenixMiner_5.6d_Linux/PhoenixMiner -pool asia1.ethermine.org:4444 -wal 0xa4c5a0f1085edff61a41a1b51817860ed45731c2.D2021 -pass x'
+
